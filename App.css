@@ -1,0 +1,268 @@
+.App {
+    text-align: none;
+    background-color: #F0F0F7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 960px;
+    /* UI Properties */
+    background: #F0F0F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.siNavigationSide {
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 960px;
+    /* UI Properties */
+    background: var(--unnamed-color-13334a) 0% 0% no-repeat padding-box;
+    background: #13334A 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.siHomepage {
+    position: absolute;
+    top: 166px;
+    left: 335px;
+    width: 1170px;
+    height: 626px;
+    /* border: 2px solid black; */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #0000000A;
+    opacity: 1;
+    z-index: 11;
+    display: flex;
+}
+
+.siHomeTitle {
+    top: 102px;
+    left: 335px;
+    width: 71px;
+    height: 36px;
+    position: absolute;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 28px/40px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-a5a4bf);
+    text-align: left;
+    font: normal normal normal 28px/40px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #A5A4BF;
+    opacity: 1;
+}
+
+.siFatal {
+    top: 110px;
+    left: 630px;
+    width: 62px;
+    height: 28px;
+    position: absolute;
+    display: flex;
+}
+
+.siFatal-Fcontainer {
+    top: 110px;
+    left: 630px;
+    width: 28px;
+    height: 28px;
+    /* UI Properties */
+    background: var(--unnamed-color-ff6565) 0% 0% no-repeat padding-box;
+    background: #FF6565 0% 0% no-repeat padding-box;
+    border-radius: 50% 50%;
+}
+
+.siFatal-F {
+    top: 116px;
+    left: 641px;
+    width: 6px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/17px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 13px/17px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.siFatal-Fatal {
+    top: 116px;
+    left: 665px;
+    width: 27px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/20px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-4d4f5c);
+    text-align: left;
+    font: normal normal normal 13px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4D4F5C;
+    opacity: 1;
+}
+
+.siDme {
+    top: 110px;
+    left: 720px;
+    width: 75px;
+    height: 28px;
+    position: absolute;
+    display: flex;
+}
+
+.siDme-Dcontainer {
+    top: 110px;
+    left: 720px;
+    width: 28px;
+    height: 28px;
+    /* UI Properties */
+    background: var(--unnamed-color-a3a1fb) 0% 0% no-repeat padding-box;
+    background: #A3A1FB 0% 0% no-repeat padding-box;
+    border-radius: 50px 50px;
+    opacity: 1;
+}
+
+.siDme-D {
+    top: 116px;
+    left: 730px;
+    width: 8px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/17px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 13px/17px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.siDme-Dme {
+    top: 116px;
+    left: 755px;
+    width: 40px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/20px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-4d4f5c);
+    text-align: left;
+    font: normal normal normal 13px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4D4F5C;
+    opacity: 1;
+}
+
+.siTime {
+    top: 110px;
+    left: 824px;
+    width: 71px;
+    height: 28px;
+    /* UI Properties */
+    opacity: 1;
+    position: absolute;
+    display: flex;
+}
+
+.siTime-Tcontainer {
+    top: 110px;
+    left: 824px;
+    width: 28px;
+    height: 28px;
+
+    /* UI Properties */
+    background: var(--unnamed-color-56d9fe) 0% 0% no-repeat padding-box;
+    background: #56D9FE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50px 50px;
+}
+
+.siTime-T {
+    top: 116px;
+    left: 850px;
+    width: 6px;
+    height: 17px;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/17px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 13px/17px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.siTime-Time {
+    top: 116px;
+    left: 859px;
+    width: 36px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/20px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-4d4f5c);
+    text-align: left;
+    font: normal normal normal 13px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4D4F5C;
+    opacity: 1;
+}
+
+.siInter {
+    top: 110px;
+    left: 915px;
+    width: 117px;
+    height: 28px;
+    position: absolute;
+    display: flex;
+    opacity: 1;
+}
+
+.siInter-Icontainer {
+    top: 110px;
+    left: 915px;
+    width: 28px;
+    height: 28px;
+    /* UI Properties */
+    background: #69DD9F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50px 50px;
+}
+
+.siInter-I {
+    top: 116px;
+    left: 927px;
+    width: 4px;
+    height: 17px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/17px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 13px/17px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.siInter-Inter {
+    top: 116px;
+    left: 950px;
+    width: 82px;
+    height: 17px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/20px var(--unnamed-font-family-source-sans-pro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-4d4f5c);
+    text-align: left;
+    font: normal normal normal 13px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4D4F5C;
+    opacity: 1;
+}
